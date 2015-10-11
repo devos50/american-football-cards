@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>visible</key>
+	<array>
+		<string>san-fransisco-49ers</string>
+		<string>dallas-cowboys</string>
+		<string>pittsburgh-steelers</string>
+		<string>new-england-patriots</string>
+	</array>
+	<key>teams</key>
+	<array>
+		<dict>
+			<key>id</key>
+			<string>baltimore-ravens</string>
+			<key>name</key>
+			<string>Baltimore Ravens</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>seattle-seahawks</string>
+			<key>name</key>
+			<string>Seattle Seahawks</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>new-york-giants</string>
+			<key>name</key>
+			<string>New York Giants</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>kansas-city-thiefs</string>
+			<key>name</key>
+			<string>Kansas City Thiefs</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>arizona-cardinals</string>
+			<key>name</key>
+			<string>Arizona Cardinals</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>san-diego-chargers</string>
+			<key>name</key>
+			<string>San Diego Chargers</string>
+		</dict>
+		<dict>
+			<key>id</key>
+			<string>new-york-yets</string>
+			<key>name</key>
+			<string>New York Yets</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Indianapolis Colts</string>
+			<key>id</key>
+			<string>indianapolis-colts</string>
+		</dict>
+		<dict>
+			<key>schedule</key>
+			<array>
+				<dict>
+					<key>network</key>
+					<string>NBC</string>
+					<key>date</key>
+					<date>2015-10-11T06:30:00Z</date>
+					<key>stadium</key>
+					<string>MetLife Stadium</string>
+					<key>opponent</key>
+					<string>new-york-giants</string>
+				</dict>
+				<dict>
+					<key>network</key>
+					<string>CBS</string>
+					<key>date</key>
+					<date>2015-10-18T02:25:00Z</date>
+					<key>stadium</key>
+					<string>Levi&apos;s Stadium</string>
+					<key>opponent</key>
+					<string>baltimore-ravens</string>
+				</dict>
+				<dict>
+					<key>network</key>
+					<string>CBS</string>
+					<key>date</key>
+					<date>2015-10-22T06:25:00Z</date>
+					<key>stadium</key>
+					<string>Levi&apos;s Stadium</string>
+					<key>opponent</key>
+					<string>seattle-seahawks</string>
+				</dict>
+			</array>
+			<key>id</key>
+			<string>san-fransisco-49ers</string>
+			<key>name</key>
+			<string>San Fransisco 49ers</string>
+		</dict>
+		<dict>
+			<key>schedule</key>
+			<array>
+				<dict>
+					<key>network</key>
+					<string>CBS</string>
+					<key>date</key>
+					<date>2015-10-11T02:25:00Z</date>
+					<key>stadium</key>
+					<string>AT&amp;T Stadium</string>
+					<key>opponent</key>
+					<string>new-england-patriots</string>
+				</dict>
+				<dict>
+					<key>network</key>
+					<string>FOX</string>
+					<key>date</key>
+					<date>2015-10-25T03:25:00Z</date>
+					<key>stadium</key>
+					<string>MetLife Stadium</string>
+					<key>opponent</key>
+					<string>new-york-giants</string>
+				</dict>
+				<dict>
+					<key>network</key>
+					<string>FOX</string>
+					<key>date</key>
+					<date>2015-11-01T03:25:00Z</date>
+					<key>stadium</key>
+					<string>AT&amp;T Stadium</string>
+					<key>opponent</key>
+					<string>seattle-seahawks</string>
+				</dict>
+			</array>
+			<key>id</key>
+			<string>dallas-cowboys</string>
+			<key>name</key>
+			<string>Dallas Cowboys</string>
+		</dict>
+		<dict>
+			<key>schedule</key>
+			<array>
+				<dict>
+					<key>network</key>
+					<string>ESPN</string>
+					<key>date</key>
+					<date>2015-10-12T06:30:00Z</date>
+					<key>stadium</key>
+					<string>Qualcomm Stadium</string>
+					<key>opponent</key>
+					<string>san-diego-chargers</string>
+				</dict>
+				<dict>
+					<key>network</key>
+					<string>FOX</string>
+					<key>date</key>
+					<date>2015-10-17T23:00:00Z</date>
+					<key>stadium</key>
+					<string>Heinz Field</string>
+					<key>opponent</key>
+					<string>arizona-cardinals</string>
+				</dict>
+				<dict>
+					<key>network</key>
+					<string>CBS</string>
+					<key>date</key>
+					<date>2015-10-24T23:00:00Z</date>
+					<key>stadium</key>
+					<string>Arrowhead Stadium</string>
+					<key>opponent</key>
+					<string>kansas-city-thiefs</string>
+				</dict>
+			</array>
+			<key>name</key>
+			<string>Pittsburgh Steelers</string>
+			<key>id</key>
+			<string>pittsburgh-steelers</string>
+		</dict>
+		<dict>
+			<key>schedule</key>
+			<array>
+				<dict>
+					<key>network</key>
+					<string>CBS</string>
+					<key>date</key>
+					<date>2015-10-11T02:25:00Z</date>
+					<key>stadium</key>
+					<string>AT&amp;T Stadium</string>
+					<key>opponent</key>
+					<string>dallas-cowboys</string>
+				</dict>
+				<dict>
+					<key>network</key>
+					<string>NBC</string>
+					<key>date</key>
+					<date>2015-10-18T06:30:00Z</date>
+					<key>stadium</key>
+					<string>Lucas Oil Stadium</string>
+					<key>opponent</key>
+					<string>indianapolis-colts</string>
+				</dict>
+				<dict>
+					<key>network</key>
+					<string>CBS</string>
+					<key>date</key>
+					<date>2015-10-12T06:30:00Z</date>
+					<key>stadium</key>
+					<string>Gillette Stadium</string>
+					<key>opponent</key>
+					<string>new-york-yets</string>
+				</dict>
+			</array>
+			<key>id</key>
+			<string>new-england-patriots</string>
+			<key>name</key>
+			<string>New England Patriots</string>
+		</dict>
+	</array>
+</dict>
+</plist>

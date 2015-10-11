@@ -7,21 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F1A46821BC83E09002853B1 /* teams.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F1A46811BC83E09002853B1 /* teams.plist */; settings = {ASSET_TAGS = (); }; };
 		9F8F04141BC6FC19005E78E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8F04131BC6FC19005E78E9 /* AppDelegate.swift */; };
-		9F8F04161BC6FC19005E78E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8F04151BC6FC19005E78E9 /* ViewController.swift */; };
 		9F8F04191BC6FC19005E78E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8F04171BC6FC19005E78E9 /* Main.storyboard */; };
 		9F8F041B1BC6FC19005E78E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F8F041A1BC6FC19005E78E9 /* Assets.xcassets */; };
 		9F8F041E1BC6FC19005E78E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8F041C1BC6FC19005E78E9 /* LaunchScreen.storyboard */; };
+		9F8F04261BC6FC8E005E78E9 /* TeamsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F8F04251BC6FC8E005E78E9 /* TeamsTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		9FF631BE1BCA745500FB74E4 /* TeamsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF631BD1BCA745500FB74E4 /* TeamsManager.swift */; settings = {ASSET_TAGS = (); }; };
+		9FF631C01BCA7BDA00FB74E4 /* ScheduleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF631BF1BCA7BDA00FB74E4 /* ScheduleTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		9FF631C21BCA841200FB74E4 /* GameInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF631C11BCA841200FB74E4 /* GameInfoViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F1A46811BC83E09002853B1 /* teams.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = teams.plist; sourceTree = "<group>"; };
 		9F8F04101BC6FC19005E78E9 /* AmericanFootballCards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmericanFootballCards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F8F04131BC6FC19005E78E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9F8F04151BC6FC19005E78E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9F8F04181BC6FC19005E78E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9F8F041A1BC6FC19005E78E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F8F041D1BC6FC19005E78E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F8F041F1BC6FC19005E78E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8F04251BC6FC8E005E78E9 /* TeamsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamsTableViewController.swift; sourceTree = "<group>"; };
+		9FF631BD1BCA745500FB74E4 /* TeamsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeamsManager.swift; sourceTree = "<group>"; };
+		9FF631BF1BCA7BDA00FB74E4 /* ScheduleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewController.swift; sourceTree = "<group>"; };
+		9FF631C11BCA841200FB74E4 /* GameInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +62,42 @@
 		9F8F04121BC6FC19005E78E9 /* AmericanFootballCards */ = {
 			isa = PBXGroup;
 			children = (
+				9FF631C41BCA882D00FB74E4 /* Other */,
+				9FF631C31BCA882000FB74E4 /* Controllers */,
+				9FF631BC1BCA743700FB74E4 /* Managers */,
 				9F8F04131BC6FC19005E78E9 /* AppDelegate.swift */,
-				9F8F04151BC6FC19005E78E9 /* ViewController.swift */,
 				9F8F04171BC6FC19005E78E9 /* Main.storyboard */,
 				9F8F041A1BC6FC19005E78E9 /* Assets.xcassets */,
 				9F8F041C1BC6FC19005E78E9 /* LaunchScreen.storyboard */,
 				9F8F041F1BC6FC19005E78E9 /* Info.plist */,
 			);
 			path = AmericanFootballCards;
+			sourceTree = "<group>";
+		};
+		9FF631BC1BCA743700FB74E4 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				9FF631BD1BCA745500FB74E4 /* TeamsManager.swift */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		9FF631C31BCA882000FB74E4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9F8F04251BC6FC8E005E78E9 /* TeamsTableViewController.swift */,
+				9FF631BF1BCA7BDA00FB74E4 /* ScheduleTableViewController.swift */,
+				9FF631C11BCA841200FB74E4 /* GameInfoViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		9FF631C41BCA882D00FB74E4 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				9F1A46811BC83E09002853B1 /* teams.plist */,
+			);
+			name = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +131,7 @@
 				TargetAttributes = {
 					9F8F040F1BC6FC19005E78E9 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 5T9Z3WMJ28;
 					};
 				};
 			};
@@ -124,6 +161,7 @@
 				9F8F041E1BC6FC19005E78E9 /* LaunchScreen.storyboard in Resources */,
 				9F8F041B1BC6FC19005E78E9 /* Assets.xcassets in Resources */,
 				9F8F04191BC6FC19005E78E9 /* Main.storyboard in Resources */,
+				9F1A46821BC83E09002853B1 /* teams.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,8 +172,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F8F04161BC6FC19005E78E9 /* ViewController.swift in Sources */,
+				9FF631C01BCA7BDA00FB74E4 /* ScheduleTableViewController.swift in Sources */,
+				9FF631BE1BCA745500FB74E4 /* TeamsManager.swift in Sources */,
+				9F8F04261BC6FC8E005E78E9 /* TeamsTableViewController.swift in Sources */,
 				9F8F04141BC6FC19005E78E9 /* AppDelegate.swift in Sources */,
+				9FF631C21BCA841200FB74E4 /* GameInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +289,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AmericanFootballCards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nl.codeup.AmericanFootballCards;
@@ -259,6 +301,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AmericanFootballCards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = nl.codeup.AmericanFootballCards;
@@ -285,6 +328,7 @@
 				9F8F04241BC6FC19005E78E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
